@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <title>Learner</title>
+</head>
+<body>
+    <!-- Start header -->
+    <header class="head_d w-100 h-100">
+        <div class="top_section py-1 px-5 vh-100">
+            <div class="topp container d-flex justify-content-between align-items-center flex-wrap text-center gap-3 py-3 border-light border-bottom">
+                <div class="contact_with_me d-flex justify-content-center align-items-center text-center flex-wrap gap-3">
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="fa-regular fa-circle-question text-white"></i>
+                        <p class="mb-0 text-white"> Have a questions? </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-phone text-white"></i>
+                        <p class="mb-0 text-white"> 10 20 123 456 </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-envelope text-white"></i>
+                        <p class="mb-0 text-white"> info@mydomain.com </p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center text-center flex-wrap gap-3">
+                    <a href="#" class="d-flex align-items-center gap-2 text-decoration-none"><i class="fa-solid fa-lock text-white"></i><p class="mb-0 text-white"> Log In </p></a>
+                    <a href="#" class="d-flex align-items-center gap-2 text-decoration-none"><i class="fa-solid fa-user text-white"></i><p class="mb-0 text-white"> Register </p></a>
+                </div>
+            </div>
+            <nav id="navbar" class="navbar navbar-expand-lg my-3 fs-6 fw-bold" >
+                <div class="container">
+                  <a class="navbar-brand text-white fs-3 pb-2" href="#">Learner </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse list" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto sa_ul">
+                      <li class="nav-item">
+                        <a class="nav-link text-white-50 p-1 active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white-50 p-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu p-1 gap-1">
+                          <li><a class="dropdown-item p-0" href="#">Action</a></li>
+                          <li><a class="dropdown-item p-0" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider m-0"></li>
+                          <li><a class="dropdown-item p-0" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white-50 p-1" href="#">Our Staff</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white-50 p-1" href="#">News</a>
+                      </li>
+                      <li class="nav-item"> 
+                        <a class="nav-link text-white-50 p-1" href="#">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white-50 p-1" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white-50 p-1" href="#">Contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <button class="butt px-2 py-1 text-white border-0" type="submit">ENROLL NOW</button>
+                    </form>
+                  </div>
+                </div>
+            </nav>
+            <div class="hero d-flex flex-column justify-content-start align-items-center gap-2 pt-5">
+                <p class="text-center text-white fw-bold">WATCH THE VIDEO</p>
+                <h1 class="text-center text-white fw-bold">Education is the Mother of Leadership</h1>
+                <button class="bu bg-primary text-center text-white fw-bold border-0 text-white p-1"> EXPLORE COURSES </button>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+    <!-- Start main -->
+    <main>
+        <!-- Start browse category -->
+        <div class="container py-4 my-5">
+            <h1 class="text-center mt-4 text-primary mb-4"> Browse Top Category </h1>
+            <div class="row my-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                    <div class="card browse_card border-0 rounded-1 p-3 shadow-sm">      
+                        <div class="card-body p-1 d-flex align-items-center">
+                            <div class="sa_bg_icons bg-white rounded-2 d-flex align-items-center justify-content-center me-3">
+                                <i class="fa-solid fa-atom text-info ico h-50"></i>
+                            </div>
+                            <div>
+                                <h5 class="card-title m-0 fs-6"> Science </h5>
+                                <p class="card-text text-secondary fs-6"> 1,391 courses </p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                    <div class="card browse_card border-0 rounded-1 p-3 shadow-sm">      
+                        <div class="card-body p-1 d-flex align-items-center">
+                            <div class="sa_bg_icons bg-white rounded-2 d-flex align-items-center justify-content-center me-3">
+                                <i class="fa-solid fa-briefcase text-info ico h-50"></i>
+                            </div>
+                            <div>
+                                <h5 class="card-title m-0 fs-6"> Business </h5>
+                                <p class="card-text text-secondary fs-6"> 3,234 courses </p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 sa_c">
+                    <div class="card browse_card border-0 rounded-1 p-3 shadow-sm">      
+                        <div class="card-body p-1 d-flex align-items-center">
+                            <div class="sa_bg_icons bg-white rounded-2 d-flex align-items-center justify-content-center me-3">
+                                <i class="fa-solid fa-calculator text-info ico h-50"></i>
+                            </div>
+                            <div>
+                                <h5 class="card-title m-0 fs-6 d-lg-none d-md-none d-xl-block"> Finance Accounting </h5>
+                                <h5 class="card-title m-0 fs-6 d-none d-md-block d-lg-block d-xl-none d-sm-none"> Accounting </h5>
+                                <p class="card-text text-secondary fs-6"> 931 courses </p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                    <div class="card browse_card border-0 rounded-1 p-3 shadow-sm">      
+                        <div class="card-body p-1 d-flex align-items-center">
+                            <div class="sa_bg_icons bg-white rounded-2 d-flex align-items-center justify-content-center me-3">
+                                <i class="fa-solid fa-highlighter text-info ico h-50"></i>
+                            </div>
+                            <div>
+                                <h5 class="card-title m-0 fs-6"> Design </h5>
+                                <p class="card-text text-secondary fs-6"> 7,291 courses </p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                    <div class="card browse_card border-0 rounded-1 p-3 shadow-sm">      
+                        <div class="card-body p-1 d-flex align-items-center">
+                            <div class="sa_bg_icons bg-white rounded-2 d-flex align-items-center justify-content-center me-3">
+                                <i class="fa-solid fa-music text-info ico h-50"></i>
+                            </div>
+                            <div>
+                                <h5 class="card-title m-0 fs-6"> Music </h5>
+                                <p class="card-text text-secondary fs-6"> 9,114 courses </p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                    <div class="card browse_card border-0 rounded-1 p-3 shadow-sm">      
+                        <div class="card-body p-1 d-flex align-items-center">
+                            <div class="sa_bg_icons bg-white rounded-2 d-flex align-items-center justify-content-center me-3">
+                                <i class="fa-solid fa-bullseye text-info ico h-50"></i>
+                            </div>
+                            <div>
+                                <h5 class="card-title m-0 fs-6"> Marketing </h5>
+                                <p class="card-text text-secondary fs-6"> 2,391 courses </p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                    <div class="card browse_card border-0 rounded-1 p-3 shadow-sm">      
+                        <div class="card-body p-1 d-flex align-items-center">
+                            <div class="sa_bg_icons bg-white rounded-2 d-flex align-items-center justify-content-center me-3">
+                                <i class="fa-solid fa-camera text-info ico h-50"></i>
+                            </div>
+                            <div>
+                                <h5 class="card-title m-0 fs-6"> Photography </h5>
+                                <p class="card-text text-secondary fs-6"> 7,991 courses </p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                    <div class="card browse_card border-0 rounded-1 p-3 shadow-sm">      
+                        <div class="card-body p-1 d-flex align-items-center">
+                            <div class="sa_bg_icons bg-white rounded-2 d-flex align-items-center justify-content-center me-3"> 
+                                <i class="fa-solid fa-circle-radiation text-info ico h-50"></i>
+                            </div>
+                            <div>
+                                <h5 class="card-title m-0 fs-6"> Animation </h5>
+                                <p class="card-text text-secondary fs-6"> 6,491 courses </p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center flex-wrap p-2 gap-1">
+                <p class="text-secondary mb-0"> We have more category here. </p>
+                <a href="#" class="text-decoration-none"> Browse all </a>
+            </div>
+        </div>
+         <!-- End browse category -->
+         
+         <!-- Start instructor -->
+         <div class="bg_con">
+            <div class="container di_center d-flex justify-content-between flex-wrap align-items-center gap-5">
+                <div class="right d-flex flex-column py-3">
+                    <h1 class="text-primary mb-4"> Become an Instructor </h1>
+                    <p class="p_width text-center"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live. </p>
+                    <ul class="list-unstyled">
+                        <li> <i class="fa-solid fa-check text-primary pe-1"></i> Behind the word Mountains. </li>
+                        <li> <i class="fa-solid fa-check text-primary pe-1"></i> Far far away Mountains. </li>
+                        <li> <i class="fa-solid fa-check text-primary pe-1"></i> Large language Ocean. </li>
+                    </ul>
+                    <button class="butto bg-primary border-0 text-white rounded-5 py-2 px-4"> GET STARTED </button>
+                </div>
+                <img src="./image/student.jpg" alt="student" class="im">
+             </div>
+         </div>
+         <!-- End instructor -->
+
+         <!-- Start best education -->
+         <div class="container py-4 my-5">
+            <div class="d-flex flex-column align-items-center">
+                <h1 class="text-primary text-center mb-4"> We Have Best Education </h1>
+                <p class="p_edu text-secondary"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p> 
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card d-flex flex-column align-items-center px-3 py-4 shadow-sm">
+                        <div class="sa_bgi_icons border rounded-circle d-flex align-items-center justify-content-center p-3">
+                            <i class="fa-solid fa-music text-primary ico h-50"></i>
+                        </div>
+                        <div class="card_body_edu card-body d-flex flex-column align-items-center px-0">
+                          <h5 class="card-title text-primary"> Music class </h5>
+                          <p class="card-text text-center px-0 text-black-50"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card d-flex flex-column align-items-center px-3 py-4 shadow-sm">
+                        <div class="sa_bgi_icons border rounded-circle d-flex align-items-center justify-content-center p-3">
+                            <i class="fa-solid fa-calculator text-primary ico h-50"></i>
+                        </div>
+                        <div class="card_body_edu card-body d-flex flex-column align-items-center px-0">
+                          <h5 class="card-title text-primary"> Math class </h5>
+                          <p class="card-text text-center px-0 text-black-50"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card d-flex flex-column align-items-center px-3 py-4 shadow-sm">
+                        <div class="sa_bgi_icons border rounded-circle d-flex align-items-center justify-content-center p-3">
+                            <i class="fa-solid fa-language text-primary ico h-50"></i>
+                        </div>
+                        <div class="card_body_edu card-body d-flex flex-column align-items-center px-0">
+                          <h5 class="card-title text-primary"> English class </h5>
+                          <p class="card-text text-center px-0 text-black-50"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card d-flex flex-column align-items-center px-3 py-4 shadow-sm">
+                        <div class="sa_bgi_icons border rounded-circle d-flex align-items-center justify-content-center p-3">
+                            <i class="fa-solid fa-book text-primary ico h-50"></i>
+                        </div>
+                        <div class="card_body_edu card-body d-flex flex-column align-items-center px-0">
+                          <h5 class="card-title text-primary"> Reading for Kids </h5>
+                          <p class="card-text text-center px-0 text-black-50"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card d-flex flex-column align-items-center px-3 py-4 shadow-sm">
+                        <div class="sa_bgi_icons border rounded-circle d-flex align-items-center justify-content-center p-3">
+                            <i class="fa-solid fa-clock-rotate-left text-primary ico h-50"></i>
+                        </div>
+                        <div class="card_body_edu card-body d-flex flex-column align-items-center px-0">
+                          <h5 class="card-title text-primary"> History class </h5>
+                          <p class="card-text text-center px-0 text-black-50"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card d-flex flex-column align-items-center px-3 py-4 shadow-sm">
+                        <div class="sa_bgi_icons border rounded-circle d-flex align-items-center justify-content-center p-3">
+                            <i class="fa-solid fa-headphones text-primary ico h-50"></i>
+                        </div>
+                        <div class="card_body_edu card-body d-flex flex-column align-items-center px-0">
+                          <h5 class="card-title text-primary"> Music </h5>
+                          <p class="card-text text-center px-0 text-black-50"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+         </div>
+         <!-- End best education -->
+         
+         <!-- Start course -->
+         <div class="bg_con py-4">
+            <div class="container py-5">
+                <div class="d-flex flex-column align-items-center">
+                    <h1 class="text-primary text-center pt-3 mb-4"> The Right Course For You </h1>
+                    <p class="p_edu text-secondary"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p> 
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 mt-4">
+                        <div class="card rounded-0">
+                            <img class="card-img-top rounded-0 im_size" src="./image/course.jpg" alt="Card image cap">
+                            <div class="card-body c_body shadow-lg">
+                                <div class="d-flex justify-content-between align-items-center text-center flex-wrap my-3">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class="fa-solid fa-book-open text-primary"></i>
+                                        <p class="mb-0 text-primary"> 43 lesson </p>
+                                    </div>
+                                    <div class="eval d-flex align-items-center gap-2">
+                                        <i class="eval_i fa-solid fa-star"></i>
+                                        <p class="mb-0"> 4.8 </p>
+                                    </div>
+                                </div>
+                              <h5 class="card-title"> Education Program Title </h5>
+                              <p class="card-text text-black-50"> Lorem ipsum dolor sit amet once is consectetur adipisicing elit optio. </p>
+                              <hr class="text-muted">
+                              <div class="price d-flex justify-content-between align-items-center">
+                                <p class="mb-0"> $87.00 </p>
+                                <a href="#" class="text-decoration-none text-primary">Learn More</a>
+                              </div>
+                            
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mt-4">
+                        <div class="card rounded-0">
+                            <img class="card-img-top rounded-0 im_size" src="./image/coursee.jpg" alt="Card image cap">
+                            <div class="card-body c_body shadow-lg">
+                                <div class="d-flex justify-content-between align-items-center text-center flex-wrap my-3">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class="fa-solid fa-book-open text-primary"></i>
+                                        <p class="mb-0 text-primary"> 43 lesson </p>
+                                    </div>
+                                    <div class="eval d-flex align-items-center gap-2">
+                                        <i class="eval_i fa-solid fa-star"></i>
+                                        <p class="mb-0"> 4.8 </p>
+                                    </div>
+                                </div>
+                              <h5 class="card-title"> Education Program Title </h5>
+                              <p class="card-text text-black-50"> Lorem ipsum dolor sit amet once is consectetur adipisicing elit optio. </p>
+                              <hr class="text-muted">
+                              <div class="price d-flex justify-content-between align-items-center">
+                                <p class="mb-0"> $93.00 </p>
+                                <a href="#" class="text-decoration-none text-primary">Learn More</a>
+                              </div>
+                            
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mt-4">
+                        <div class="card rounded-0">
+                            <img class="card-img-top rounded-0 im_size" src="./image/courseee.jpg" alt="Card image cap">
+                            <div class="card-body c_body shadow-lg">
+                                <div class="d-flex justify-content-between align-items-center text-center flex-wrap my-3">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class="fa-solid fa-book-open text-primary"></i>
+                                        <p class="mb-0 text-primary"> 43 lesson </p>
+                                    </div>
+                                    <div class="eval d-flex align-items-center gap-2">
+                                        <i class="eval_i fa-solid fa-star"></i>
+                                        <p class="mb-0"> 4.8 </p>
+                                    </div>
+                                </div>
+                              <h5 class="card-title"> Education Program Title </h5>
+                              <p class="card-text text-black-50"> Lorem ipsum dolor sit amet once is consectetur adipisicing elit optio. </p>
+                              <hr class="text-muted">
+                              <div class="price d-flex justify-content-between align-items-center">
+                                <p class="mb-0"> $65.00 </p>
+                                <a href="#" class="text-decoration-none text-primary">Learn More</a>
+                              </div>
+                            
+                            </div>
+                          </div>
+                    </div>
+                </div>
+             </div>
+         </div>
+         <!-- End course -->
+
+         <!-- Start Leaders -->
+         <div class="back_leader w-100 vh-100">
+            <div class="back_color w-100 vh-100 d-flex flex-column justify-content-center align-items-center">
+                <h1 class="text-center text-white"> Education for Tommorrow's Leaders </h1>
+                <p class="text-center text-white leader_P"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                <button class="butto bg-info border-0 text-white rounded-5 py-2 px-4"> ENROLL NOW </button>
+            </div>
+         </div>
+         <!-- End Leaders -->
+
+         <!-- Start about us -->
+         <div class="position-relative">
+            <div class="back_video"></div>
+            <div class="container dii_center my-5 d-flex justify-content-between flex-wrap">
+                <div class="right d-flex flex-column py-3">
+                    <h1 class="text-primary mb-4"> About Us </h1>
+                    <p class="pp_width text-secondary"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live. </p>
+                    <ul class="list-unstyled">
+                        <li class="text-secondary"> <i class="fa-solid fa-check text-primary pe-1"></i> Behind the word Mountains. </li>
+                        <li class="text-secondary"> <i class="fa-solid fa-check text-primary pe-1"></i> Far far away Mountains. </li>
+                        <li class="text-secondary"> <i class="fa-solid fa-check text-primary pe-1"></i> Large language Ocean. </li>
+                    </ul>
+                    <div class="p_s d-flex align-items-center gap-5 py-2">
+                        <div class="d-flex flex-column">
+                            <h1 class="text-primary fs-3"> 204+ </h1>
+                            <p class="text-secondary"> No. Students </p>
+                        </div>
+                        <div class="p_s d-flex flex-column">
+                            <h1 class="text-primary fs-3"> 0 </h1>
+                            <p class="text-secondary"> No. Teachers </p>
+                        </div>
+                        <div class="p_s d-flex flex-column align-items-start">
+                            <h1 class="text-primary fs-3"> 0 </h1>
+                            <p class="text-secondary"> No. Awards </p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <button class="buttoo bg-primary border-0 text-white rounded-5 py-2 px-4"> ADMISSION </button>
+                        <button class="buttoo bg-white text-primary border-1 border-primary rounded-5 py-2 px-4"> LEARN MORE </button>
+                    </div>
+                </div>
+                <video controls poster="./image/video.jpg" preload="none">
+                    <source src="./image/video.mp4" type="video/mp4">
+                </video>
+             </div>
+         </div>
+         <!-- End about us -->
+
+         <!-- Start school news -->
+         <div class="bg_con py-4">
+            <div class="container py-5">
+                <div class="d-flex flex-column align-items-center">
+                    <h1 class="text-primary text-center pt-3 mb-4"> School News </h1>
+                    <p class="p_edu text-secondary"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p> 
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 mt-4">
+                        <div class="card d-flex flex-row">
+                            <img src="./image/student.jpg" class="mmm rounded-start" alt="course">
+                            <div class="card_body_educ card-body shadow-lg pb-4 pe-2">
+                              <h5 class="card-title text-primary"> Education for Tommorrow's Leaders </h5>
+                              <div class="d-flex align-items-center gap-3 flex-wrap">
+                                   <div class=" d-flex align-items-center justify-content-start gap-2">
+                                    <i class="fa-regular fa-calendar-days text-black-50"></i>
+                                       <p class="mb-0 text-black-50"> June 22,2020 </p>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-start gap-2">
+                                        <i class="fa-solid fa-user text-black-50"></i>
+                                       <p class="mb-0 text-black-50"> Admin </p>
+                                    </div>
+                              </div>
+                              <p class="card-text mt-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <a href="#" class="text-primary text-decoration-none">Learn More</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-lg-6 col-md-12 col-sm-12 mt-4">
+                        <div class="card d-flex flex-row">
+                            <img src="./image/student.jpg" class="mmm rounded-start" alt="course">
+                            <div class="card_body_educ card-body shadow-lg pb-4 pe-2">
+                              <h5 class="card-title text-primary"> Enroll Your Kids This Summer to get 30% off </h5>
+                              <div class="d-flex align-items-center gap-3 flex-wrap">
+                                   <div class=" d-flex align-items-center justify-content-start gap-2">
+                                    <i class="fa-regular fa-calendar-days text-black-50"></i>
+                                       <p class="mb-0 text-black-50"> June 22,2020 </p>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-start gap-2">
+                                        <i class="fa-solid fa-user text-black-50"></i>
+                                       <p class="mb-0 text-black-50"> Admin </p>
+                                    </div>
+                              </div>
+                              <p class="card-text mt-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <a href="#" class="text-primary text-decoration-none">Learn More</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- End school news -->
+
+         <!-- Start pricing -->
+         <div class="container py-4 my-5">
+            <div class="d-flex flex-column align-items-center">
+                <h1 class="text-primary text-center mb-4"> Pricing </h1>
+                <p class="p_edu text-secondary"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p> 
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card d-flex flex-column align-items-center p-4">
+                        <div class="card_body_price card-body d-flex flex-column align-items-center px-0">
+                            <h5 class="card-title text-primary mb-4"> Starter </h5>
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <h4 class="text-primary">$50.99</h4>
+                                <p class="mb-0 text-secondary">/month</p>
+                            </div>
+                            <p class="p_wi card-text text-center px-0 text-secondary"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                            <button class="buttoo bg-white text-primary border-1 border-primary rounded-5 py-2 px-4 mb-4"> GET STARTED </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card d-flex flex-column align-items-center p-4">
+                        <div class="card_body_price card-body d-flex flex-column align-items-center px-0">
+                            <h5 class="card-title text-primary mb-4"> Business </h5>
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <h4 class="text-primary">$99.99</h4>
+                                <p class="mb-0 text-secondary">/month</p>
+                            </div>
+                            <p class="p_wi card-text text-center px-0 text-secondary"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                            <button class="buttoo bg-primary text-white border-1 border-primary rounded-5 py-2 px-4 mb-4"> GET STARTED </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card d-flex flex-column align-items-center p-4">
+                        <div class="card_body_price card-body d-flex flex-column align-items-center px-0">
+                            <h5 class="card-title text-primary mb-4"> Premium </h5>
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <h4 class="text-primary">$199.99</h4>
+                                <p class="mb-0 text-secondary">/month</p>
+                            </div>
+                            <p class="p_wi card-text text-center px-0 text-secondary"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                            <button class="buttoo bg-white text-primary border-1 border-primary rounded-5 py-2 px-4 mb-4"> GET STARTED </button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+         </div>
+         <!-- End pricing -->
+
+         <!-- Start testimonials -->
+         <div class="bg_con py-4">
+            <div class="container py-5 d-flex flex-column justify-content-center">
+                <div class="d-flex flex-column align-items-center">
+                    <h1 class="text-primary text-center pt-3 mb-4"> Testimonials </h1>
+                    <p class="p_test text-secondary text-center mb-4"> "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the semantics, a large language Ocean."</p> 
+                </div>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active mx-auto" data-bs-interval="10000">
+                        <img src="./image/pe.jpg" class="d-block w-50 h-50 mx-auto" alt="jj">
+                        <div class="carousel-caption d-block pt-2 mb-4">
+                          <h5 class="text-primary mx-auto px-0 my-1">John Doe</h5>
+                          <p class="mx-auto p-0 mb-2">CEO, Founder</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item mx-auto" data-bs-interval="2000">
+                        <img src="./image/pe2.jpg" class="d-block w-50 h-50 mx-auto" alt="jj">
+                        <div class="carousel-caption d-block pt-2 mb-4">
+                          <h5 class="text-primary mx-auto px-0 my-1">Samer Doe</h5>
+                          <p class="mx-auto p-0 mb-2">SA, Founder</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item mx-auto">
+                        <img src="./image/pe3.jpeg" class="d-block w-50 h-50 mx-auto" alt="ggb">
+                        <div class="carousel-caption d-block pt-2 mb-4">
+                          <h5 class="text-primary mx-auto px-0 my-1">Mariam Doe</h5>
+                          <p class="mx-auto p-0 mb-2">RAM, Founder</p>
+                        </div>
+                      </div>
+                      <div class="carousel-indicators d-flex mb-0">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+         </div>
+         <!-- End testimonials -->
+
+          <!-- Start choose us -->
+          <div class="container py-4 my-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center ">
+                    <img src="./image/choose_right.jpg" alt="student" class="chooseUs_image col-lg-4 col-md-4 col-sm-6 w-100 h-75 pb-4 end-0">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 px-4">
+                    <h1 class="text-primary mb-4"> Why Choose Us </h1>
+                    <p class="ppp_width text-secondary"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button accordion-button11 text-white ps-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                              Good Teachers and Staffs
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body row">
+                                <div class="col-lg-4 col-md-4 col-sm-12 mt-4">
+                                    <img src="./image/choose_right.jpg" alt="student" class="col-lg-4 col-md-4 col-sm-6 w-100 h-100 pb-4">
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-42 mt-4">
+                                    <p class="w-100 text-secondary"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                    <p class="w-100 text-secondary"> Separated they live in Bookmarksgrove right at the coast of the semantics, a large language Ocean. </p>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed accordion-button12 ps-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                              We Value Good Characters
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                              <div class="accordion-body row">
+                                  <div class="col-lg-4 col-md-4 col-sm-12 mt-4">
+                                     <img src="./image/choose_right.jpg" alt="student" class="col-lg-4 col-md-4 col-sm-6 w-100 h-100 pb-4">
+                                  </div>
+                                  <div class="col-lg-8 col-md-8 col-sm-42 mt-4">
+                                    <p class="w-100 text-secondary"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                    <p class="w-100 text-secondary"> Separated they live in Bookmarksgrove right at the coast of the semantics, a large language Ocean. </p>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed accordion-button12 ps-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                              Your Children are Safe
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body row">
+                                <div class="col-lg-4 col-md-4 col-sm-12 mt-4">
+                                   <img src="./image/choose_right.jpg" alt="student" class="col-lg-4 col-md-4 col-sm-6 w-100 h-100 pb-4">
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-42 mt-4">
+                                  <p class="w-100 text-secondary"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                  <p class="w-100 text-secondary"> Separated they live in Bookmarksgrove right at the coast of the semantics, a large language Ocean. </p>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+          <!-- End choose us -->
+
+          <!-- Start footer -->
+          <div class="bg-primary py-4 footer">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="d-flex flex-column gap-3 mb-2">
+                            <h5 class="text-white"> About Us </h5>
+                            <p class="text-white"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                        </div>
+                        <div class="d-flex flex-column gap-2 mb-5">
+                            <h5 class="text-white"> Connect </h5>
+                            <div class="d-flex align-items-center gap-1">
+                                <div class="icon_bg bg-white d-flex align-items-center justify-content-center">
+                                    <a href="https://www.instagram.com/" class="text-center m-0 p-0 d-flex align-items-center justify-content-center"><i class="fa-brands fa-instagram text-black w-50 h-50"></i></a>
+                                </div>
+                                <div class="icon_bg bg-white d-flex align-items-center justify-content-center">
+                                    <a href="https://www.instagram.com/" class="text-center m-0 p-0 d-flex align-items-center justify-content-center"><i class="fa-brands fa-square-twitter text-black w-50 h-50"></i></a>
+                                </div>
+                                <div class="icon_bg bg-white d-flex align-items-center justify-content-center">
+                                    <a href="https://www.facebook.com/" class="text-center m-0 p-0 d-flex align-items-center justify-content-center"><i class="fa-brands fa-square-facebook text-black w-50 h-50"></i></a>
+                                </div>
+                                <div class="icon_bg bg-white d-flex align-items-center justify-content-center">
+                                    <a href="https://www.linkedin.com/" class="text-center m-0 p-0 d-flex align-items-center justify-content-center"><i class="fa-brands fa-linkedin-in text-black w-50 h-50"></i></a>
+                                </div>
+                                <div class="icon_bg bg-white d-flex align-items-center justify-content-center">
+                                    <a href="https://www.pinterest.com/" class="text-center m-0 p-0 d-flex align-items-center justify-content-center"><i class="fa-brands fa-pinterest text-black w-50 h-50"></i></a>
+                                </div>
+                                <div class="icon_bg bg-white d-flex align-items-center justify-content-center">
+                                    <a href="https://www.behance.net/" class="text-center m-0 p-0 d-flex align-items-center justify-content-center"><i class="fa-brands fa-square-behance text-black w-50 h-50"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center">
+                        <div class="d-flex flex-column gap-3 mb-2">
+                            <h5 class="text-white"> Projects </h5>
+                            <ul class="list-unstyled text-white-50 d-flex flex-column gap-2">
+                                <li>Web Design</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>jQuery</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>  
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="d-flex flex-column gap-3 mb-2">
+                            <h5 class="text-white">Gallery</h5>
+                            <div class="gallery d-flex justify-content-between flex-wrap gap-2">
+                                <img src="./image/f1.png" alt="c">
+                                <img src="./image/f2.png" alt="c">
+                                <img src="./image/f3.png" alt="c">
+                                <img src="./image/f4.png" alt="c">
+                                <img src="./image/f5.png" alt="c" >
+                                <img src="./image/f6.png" alt="c">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="d-flex flex-column gap-3 mb-2">
+                            <h5 class="text-white">Contact</h5>
+                            <div>
+                                <p class="f_p text-white">43 Raymouth Rd. Baltemoer, London 3910</p>
+                                <p class="text-white-50">+1(123)-456-7890</p>
+                                <p class="text-white-50">+1(123)-456-7890</p>
+                                <p class="text-white-50">info@mydomin.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center px-3 text-center">
+                <p class="text-white mb-0"> Copyright <i class="fa-regular fa-copyright text-white"></i>2023. All Rights Reserved. - Designed with love by Untree.co Distributed By ThemeWagon </p>
+            </div>
+          </div>
+          <!-- End footer -->
+    </main>
+    <!-- End main -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let list = document.querySelectorAll('ul.sa_ul li a')
+        list.forEach((ele) => {
+            ele.onclick = () => {
+                list.forEach((ele) => {
+                    ele.classList.remove('active');
+                })
+                ele.classList.add('active');
+            }
+        });
+        
+        const acc = document.getElementsByClassName('accordion-item');
+        for (i = 0; i<acc.length; i++){
+            acc[i].addEventListener('click', function(){
+                this.classList.toggle('active');
+            })
+        }
+
+        window.onscroll = function() {myFunction()};
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+              navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+</html>
